@@ -280,4 +280,30 @@ margin-bottom: 33px;
         padding-bottom: 20px;
     }
 
-  
+    #footer{
+       
+        
+        background: linear-gradient(70deg,rgb(24,24,24),rgb(25,29,29));
+        width: auto;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-top: 20px;
+        padding: 5px 0; 
+        position: relative;
+        top: 60px;
+
+    }
+    #footer ul{
+      
+        list-style: none;
+        display: flex;
+        margin-left: 620px;
+
+    }
+
+    #footer img{
+
+        width:70px;
+        height:auto;
+        margin-right: 30px;
+    }
