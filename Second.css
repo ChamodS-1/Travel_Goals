@@ -1,0 +1,181 @@
+body{
+
+    background: linear-gradient(-85deg,rgb(151, 151, 151),rgb(95, 95, 95));
+}
+
+#header-background{
+
+    background: linear-gradient(-85deg,rgb(151, 151, 151),rgb(95, 95, 95));
+ 
+    margin-left: -8px;
+margin-right: -8px;
+margin-top: -5px;
+
+
+}
+
+#Page-logo{
+
+    margin: 0;
+    padding: 0px;
+    
+    }
+
+   
+
+#Page-logo h1 a{
+    
+    font-family:'Lobster', cursive;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    margin-left: 40px;
+    
+    text-decoration: none;
+    
+    }
+
+    
+    #navigation-bar ul{
+    
+        list-style: none;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 35px;
+        margin-right: 47px;
+    
+    }
+    
+    #navigation-bar li a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    
+    }
+    
+    #navigation-bar ul li{
+    
+    margin-right: 25px;
+    
+    }
+    
+    #header{
+    
+    display:flex;
+    justify-content: space-between;
+    margin-top: 0;
+    flex-wrap: nowrap;
+    
+    }
+    
+    #header-content {
+    background-color: rgba(45, 45, 45, 0.7);
+    box-shadow: 3px 4px 10px rgb(0, 0, 0);
+    text-align: center;
+    width: 800px;
+    height: 265px;
+    margin-left: 350px;
+    margin-right: auto;
+    border-radius: 10px;
+    
+    }
+
+   #first_row{
+    display:flex;
+    justify-content: space-between;
+
+   }
+
+   #first_pic{
+
+        margin-left: 235px;
+
+   }
+
+   #second_pic{
+
+        margin-right: 235px;
+   }
+
+    .barcelona_main{
+
+        background-color: rgb(38, 38, 197);
+        width: 515px;
+        border-radius: 8px;
+        box-shadow: 1px 1px 3px rgb(0, 0, 0);
+     
+
+
+    }
+
+    #barcelona{
+background-image: url("/Destinations/180528121341-01-barcelona-beach-guide.jpg");
+background-size:cover;
+background-position: center;
+width: 450px;
+height: 230px;
+border-radius: 5px;
+font-family: 'Nunito', sans-serif;
+    }
+
+
+#hawaii{
+    background-image: url("/Destinations/Stu_Gibson_-_Shipstern_Bluff_1200x1200.webp");
+    background-size:cover;
+    background-position: center;
+    width: 450px;
+    height: 230px;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    }
+.Extra{
+
+    background-color: rgb(255, 255, 255);
+    height: 230px;
+    width: 200px;
+    margin-left: 250px;
+
+}
+
+    .barcelona_1{
+
+        margin-left: 140px;
+        
+    }
+
+    .barcelona_1 ul{
+
+        background-color: aliceblue;
+        height: 220px;
+        width: 200px;
+        list-style: none;
+        margin-left: -140px;
+        border-radius: 8px;
+        padding-top: 10px;
+        padding-right: 25px;
+       
+    }
+
+    .barcelona_1 ul li{
+
+    margin-left: -15px;
+
+    }
+
+    .barcelona_1 p{
+
+font-size: 15px;
+    }
+
+    .barcelona_1 li a{
+
+        margin-left: 150px;
+        text-decoration: none;
+        padding-bottom: 20px;
+    }
+
+  
