@@ -1,3 +1,10 @@
+
+body{
+
+    background: linear-gradient(70deg,rgb(195, 236, 246),rgb(159, 233, 233));
+}
+
+
 #Page-logo{
 
     margin: 0;
@@ -11,6 +18,9 @@
     background-position: center;
     background-size: cover;
     height: 600px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -10px;
     }
     
     #Page-logo h1{
@@ -65,10 +75,9 @@
     text-align: center;
     width: 800px;
     height: 265px;
-    margin-left: auto;
+    margin-left: 350px;
     margin-right: auto;
     border-radius: 10px;
-    
     
     }
     
@@ -79,7 +88,6 @@
     color: rgb(255, 255, 255);
     padding: 30px 0;
     margin-bottom: -27px;
-    
         
     }
     
@@ -101,9 +109,101 @@
         color: rgb(0, 0, 0);
         font-weight: bold;
         margin-top: -70px;
-        background-color: aqua;
+        background-color: rgb(131, 225, 225);
         padding: 10px 15px;
         border-radius: 7px;
-    
-    
+    }
+
+    #header-content a:hover{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    #Section_part{
+
+        text-align: center;
+    }
+
+    #Section_part2{
+       margin-right: 55px;
+    }
+
+    #Section_part h1{
+
+        font-family:'Nunito', sans-serif ;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #Section_part2 ul{
+        
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #Section_part2 ul li{
+
+        text-align: center;
+    }
+
+    #Section_part2 li img{
+      
+       width: 300px;
+       height: auto; 
+        border-radius: 7px;
+        box-shadow: 1px 1px 8px rgb(0, 0, 0);
+    }
+
+    #Section_part2 h4{
+
+        font-family:'Nunito', sans-serif ;
+        font-size: 22px;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+
+    #pic1{
+
+        margin-left: 210px;
+    }
+
+    #pic3{
+
+        margin-right: 210px;
+
+    }
+    .modify{
+
+        color: rgb(11, 208, 130);
+
+    }
+
+    #footer{
+       
+        
+        background: linear-gradient(70deg,rgb(24,24,24),rgb(25,29,29));
+        width: auto;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-top: 20px;
+        padding: 5px 0; 
+        position: relative;
+        top: 60px;
+
+    }
+    #footer ul{
+      
+        list-style: none;
+        display: flex;
+        margin-left: 620px;
+
+    }
+
+    #footer img{
+
+        width:70px;
+        height:auto;
+        margin-right: 30px;
     }
