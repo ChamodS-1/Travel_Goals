@@ -92,24 +92,37 @@ margin-top: -5px;
 
    #first_pic{
 
-        margin-left: 235px;
+        margin-left: 205px;
 
    }
 
    #second_pic{
 
-        margin-right: 235px;
+        margin-right: 190px;
    }
+
+   #Third_pic{
+    margin-left: 205px; 
+   
+    
+}
 
     .barcelona_main{
 
         background-color: rgb(38, 38, 197);
-        width: 515px;
+        width: 555px;
         border-radius: 8px;
         box-shadow: 1px 1px 3px rgb(0, 0, 0);
      
+    }
 
+    .london_main{
 
+        background-color: rgb(38, 38, 197);
+        width: 1125px;
+        border-radius: 8px;
+        box-shadow: 1px 1px 3px rgb(0, 0, 0);
+     
     }
 
     #barcelona{
@@ -117,7 +130,7 @@ background-image: url("/Destinations/180528121341-01-barcelona-beach-guide.jpg")
 background-size:cover;
 background-position: center;
 width: 450px;
-height: 230px;
+height: 240px;
 border-radius: 5px;
 font-family: 'Nunito', sans-serif;
     }
@@ -128,16 +141,59 @@ font-family: 'Nunito', sans-serif;
     background-size:cover;
     background-position: center;
     width: 450px;
-    height: 230px;
+    height: 240px;
     border-radius: 5px;
     font-family: 'Nunito', sans-serif;
     }
+
+    #miami{
+        background-image: url("/Destinations/039.jpg");
+        background-size:cover;
+        background-position: center;
+        width: 450px;
+        height: 240px;
+        border-radius: 5px;
+        font-family: 'Nunito', sans-serif;
+        }
+
+        #munich{
+            background-image: url("/Destinations/marienplatz-D-2687s-v1-foto-redline.jpg");
+            background-size:cover;
+            background-position: center;
+            width: 450px;
+            height: 240px;
+            border-radius: 5px;
+            font-family: 'Nunito', sans-serif;
+            }
+    
+
+#london{
+        background-image: url("/Destinations/topic-london-gettyimages-760251843-promo.jpg");
+        background-size:cover;
+        background-position: center;
+        width: 450px;
+        height: 240px;
+        border-radius: 5px;
+        font-family: 'Nunito', sans-serif;
+        }
+    
+
+
 .Extra{
 
     background-color: rgb(255, 255, 255);
-    height: 230px;
+    height: 240px;
     width: 200px;
-    margin-left: 250px;
+    margin-left: 290px;
+
+}
+
+.Extra_london{
+
+    background-color: rgb(255, 255, 255);
+    height: 240px;
+    width: 820px;
+    margin-left: 290px;
 
 }
 
@@ -150,7 +206,7 @@ font-family: 'Nunito', sans-serif;
     .barcelona_1 ul{
 
         background-color: aliceblue;
-        height: 220px;
+        height: 230px;
         width: 200px;
         list-style: none;
         margin-left: -140px;
@@ -174,6 +230,52 @@ font-size: 15px;
     .barcelona_1 li a{
 
         margin-left: 150px;
+        text-decoration: none;
+        padding-bottom: 20px;
+    }
+
+
+    
+
+    .london_1{
+
+        margin-left: 140px;
+        
+    }
+
+    .london_1 ul{
+
+        background-color: aliceblue;
+        height: 230px;
+        width: 770px;
+        list-style: none;
+        margin-left: -140px;
+        border-radius: 8px;
+        padding-top: 10px;
+        padding-right: 25px;
+       
+    }
+
+    .london_1 ul li{
+
+    margin-left: -15px;
+
+    }
+
+    .london_1 p{
+
+font-size: 17px;
+margin-bottom: 33px;
+    }
+
+    .london_1 h3{
+
+        font-size: 28px;
+    }
+
+    .london_1 ul li a{
+
+        margin-left: 700px;
         text-decoration: none;
         padding-bottom: 20px;
     }
