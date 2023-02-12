@@ -1,78 +1,88 @@
-body{
+body {
 
-    background: linear-gradient(-85deg,rgb(151, 151, 151),rgb(95, 95, 95));
+    background: linear-gradient(-85deg, rgb(240, 240, 240), rgb(224, 224, 224));
 }
 
-#header-background{
+#header-background {
 
-    background: linear-gradient(-85deg,rgb(151, 151, 151),rgb(95, 95, 95));
- 
+    
+    
+
     margin-left: -8px;
-margin-right: -8px;
-margin-top: -5px;
-
+    margin-right: -8px;
+    margin-top: -5px;
 
 }
 
-#Page-logo{
+.background1{
+
+    background-color: rgb(131, 225, 225);
+}
+
+.background2{
+
+    background-color: rgb(51, 51, 51);
+}
+
+#Page-logo {
 
     margin: 0;
     padding: 0px;
-    
-    }
 
-   
+}
 
-#Page-logo h1 a{
-    
-    font-family:'Lobster', cursive;
+
+
+#Page-logo h1 a {
+
+    font-family: 'Lobster', cursive;
     font-size: 40px;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 3px rgb(0, 0, 0);
     margin-left: 40px;
-    
-    text-decoration: none;
-    
-    }
 
-    
-    #navigation-bar ul{
-    
-        list-style: none;
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 35px;
-        margin-right: 47px;
-    
-    }
-    
-    #navigation-bar li a{
-    
+    text-decoration: none;
+
+}
+
+
+#navigation-bar ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    margin-right: 47px;
+
+}
+
+#navigation-bar li a {
+
     text-decoration: none;
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    
-    }
-    
-    #navigation-bar ul li{
-    
+
+}
+
+#navigation-bar ul li {
+
     margin-right: 25px;
-    
-    }
-    
-    #header{
-    
-    display:flex;
+
+}
+
+#header {
+
+    display: flex;
     justify-content: space-between;
     margin-top: 0;
     flex-wrap: nowrap;
-    
-    }
-    
-    #header-content {
+
+}
+
+#header-content {
     background-color: rgba(45, 45, 45, 0.7);
     box-shadow: 3px 4px 10px rgb(0, 0, 0);
     text-align: center;
@@ -81,105 +91,105 @@ margin-top: -5px;
     margin-left: 350px;
     margin-right: auto;
     border-radius: 10px;
-    
-    }
 
-   #first_row{
-    display:flex;
-    justify-content: space-between;
-
-   }
-
-   #first_pic{
-
-        margin-left: 205px;
-
-   }
-
-   #second_pic{
-
-        margin-right: 190px;
-   }
-
-   #Third_pic{
-    margin-left: 205px; 
-   
-    
 }
 
-    .barcelona_main{
+#first_row {
+    display: flex;
+    justify-content: space-between;
 
-        background-color: rgb(38, 38, 197);
-        width: 555px;
-        border-radius: 8px;
-        box-shadow: 1px 1px 3px rgb(0, 0, 0);
-     
-    }
+}
 
-    .london_main{
+#first_pic {
 
-        background-color: rgb(38, 38, 197);
-        width: 1125px;
-        border-radius: 8px;
-        box-shadow: 1px 1px 3px rgb(0, 0, 0);
-     
-    }
+    margin-left: 205px;
 
-    #barcelona{
-background-image: url("/Destinations/180528121341-01-barcelona-beach-guide.jpg");
-background-size:cover;
-background-position: center;
-width: 450px;
-height: 240px;
-border-radius: 5px;
-font-family: 'Nunito', sans-serif;
-    }
+}
+
+#second_pic {
+
+    margin-right: 190px;
+}
+
+#Third_pic {
+    margin-left: 205px;
 
 
-#hawaii{
-    background-image: url("/Destinations/Stu_Gibson_-_Shipstern_Bluff_1200x1200.webp");
-    background-size:cover;
+}
+
+.barcelona_main {
+
+    background-color: rgb(38, 38, 197);
+    width: 555px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+
+}
+
+.london_main {
+
+    background-color: rgb(38, 38, 197);
+    width: 1125px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+
+}
+
+#barcelona {
+    background-image: url("/Destinations/180528121341-01-barcelona-beach-guide.jpg");
+    background-size: cover;
     background-position: center;
     width: 450px;
     height: 240px;
     border-radius: 5px;
     font-family: 'Nunito', sans-serif;
-    }
-
-    #miami{
-        background-image: url("/Destinations/039.jpg");
-        background-size:cover;
-        background-position: center;
-        width: 450px;
-        height: 240px;
-        border-radius: 5px;
-        font-family: 'Nunito', sans-serif;
-        }
-
-        #munich{
-            background-image: url("/Destinations/marienplatz-D-2687s-v1-foto-redline.jpg");
-            background-size:cover;
-            background-position: center;
-            width: 450px;
-            height: 240px;
-            border-radius: 5px;
-            font-family: 'Nunito', sans-serif;
-            }
-    
-
-#london{
-        background-image: url("/Destinations/topic-london-gettyimages-760251843-promo.jpg");
-        background-size:cover;
-        background-position: center;
-        width: 450px;
-        height: 240px;
-        border-radius: 5px;
-        font-family: 'Nunito', sans-serif;
-        }
-    
+}
 
 
-.Extra{
+#hawaii {
+    background-image: url("/Destinations/Stu_Gibson_-_Shipstern_Bluff_1200x1200.webp");
+    background-size: cover;
+    background-position: center;
+    width: 450px;
+    height: 240px;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#miami {
+    background-image: url("/Destinations/039.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 450px;
+    height: 240px;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#munich {
+    background-image: url("/Destinations/marienplatz-D-2687s-v1-foto-redline.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 450px;
+    height: 240px;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+#london {
+    background-image: url("/Destinations/topic-london-gettyimages-760251843-promo.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 450px;
+    height: 240px;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+.Extra {
 
     background-color: rgb(255, 255, 255);
     height: 240px;
@@ -188,7 +198,7 @@ font-family: 'Nunito', sans-serif;
 
 }
 
-.Extra_london{
+.Extra_london {
 
     background-color: rgb(255, 255, 255);
     height: 240px;
@@ -197,113 +207,114 @@ font-family: 'Nunito', sans-serif;
 
 }
 
-    .barcelona_1{
+.barcelona_1 {
 
-        margin-left: 140px;
-        
-    }
+    margin-left: 140px;
 
-    .barcelona_1 ul{
+}
 
-        background-color: aliceblue;
-        height: 230px;
-        width: 200px;
-        list-style: none;
-        margin-left: -140px;
-        border-radius: 8px;
-        padding-top: 10px;
-        padding-right: 25px;
-       
-    }
+.barcelona_1 ul {
 
-    .barcelona_1 ul li{
+    background-color: aliceblue;
+    height: 230px;
+    width: 200px;
+    list-style: none;
+    margin-left: -140px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-right: 25px;
 
-    margin-left: -15px;
+}
 
-    }
-
-    .barcelona_1 p{
-
-font-size: 15px;
-    }
-
-    .barcelona_1 li a{
-
-        margin-left: 150px;
-        text-decoration: none;
-        padding-bottom: 20px;
-    }
-
-
-    
-
-    .london_1{
-
-        margin-left: 140px;
-        
-    }
-
-    .london_1 ul{
-
-        background-color: aliceblue;
-        height: 230px;
-        width: 770px;
-        list-style: none;
-        margin-left: -140px;
-        border-radius: 8px;
-        padding-top: 10px;
-        padding-right: 25px;
-       
-    }
-
-    .london_1 ul li{
+.barcelona_1 ul li {
 
     margin-left: -15px;
 
-    }
+}
 
-    .london_1 p{
+.barcelona_1 p {
 
-font-size: 17px;
-margin-bottom: 33px;
-    }
+    font-size: 15px;
+}
 
-    .london_1 h3{
+.barcelona_1 li a {
 
-        font-size: 28px;
-    }
+    margin-left: 150px;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
 
-    .london_1 ul li a{
 
-        margin-left: 700px;
-        text-decoration: none;
-        padding-bottom: 20px;
-    }
 
-    #footer{
-       
-        
-        background: linear-gradient(70deg,rgb(24,24,24),rgb(25,29,29));
-        width: auto;
-        margin-left: -8px;
-        margin-right: -8px;
-        margin-top: 20px;
-        padding: 5px 0; 
-        position: relative;
-        top: 60px;
 
-    }
-    #footer ul{
-      
-        list-style: none;
-        display: flex;
-        margin-left: 620px;
+.london_1 {
 
-    }
+    margin-left: 140px;
 
-    #footer img{
+}
 
-        width:70px;
-        height:auto;
-        margin-right: 30px;
-    }
+.london_1 ul {
+
+    background-color: aliceblue;
+    height: 230px;
+    width: 770px;
+    list-style: none;
+    margin-left: -140px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-right: 25px;
+
+}
+
+.london_1 ul li {
+
+    margin-left: -15px;
+
+}
+
+.london_1 p {
+
+    font-size: 17px;
+    margin-bottom: 33px;
+}
+
+.london_1 h3 {
+
+    font-size: 28px;
+}
+
+.london_1 ul li a {
+
+    margin-left: 700px;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+#footer {
+
+
+    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+    width: auto;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 20px;
+    padding: 5px 0;
+    position: relative;
+    top: 60px;
+
+}
+
+#footer ul {
+
+    list-style: none;
+    display: flex;
+    margin-left: 620px;
+
+}
+
+#footer img {
+
+    width: 70px;
+    height: auto;
+    margin-right: 30px;
+}
